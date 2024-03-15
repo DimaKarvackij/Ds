@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="form">
+      <label for="price">Ціна грн</label>
+      <input type="text" id="price" name="price" value="50" />
+      <label for="quantity">Кількість<span class="amount">1</span>кг </label>
+      <input
+        type="range"
+        id="quantity"
+        name="quantity"
+        value="1"
+        min="1"
+        ,
+        max="20"
+      />
+      <button class="btn" type="submit">Calculate</button>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
